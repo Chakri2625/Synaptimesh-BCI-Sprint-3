@@ -1,15 +1,16 @@
-import subprocess
+import os
+import webbrowser
+
 
 def open_browser():
-    subprocess.Popen([
-        r"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe",
-        "https://www.google.com"
-    ])
+    os.system("start msedge")
 
 
 def close_browser():
-    subprocess.run(
-        ["taskkill", "/F", "/IM", "msedge.exe"],
-        capture_output=True,
-        text=True
+    os.system("taskkill /F /IM msedge.exe")
+
+
+def open_youtube():
+    webbrowser.open(
+        "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
     )

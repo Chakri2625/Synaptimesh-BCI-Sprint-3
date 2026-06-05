@@ -1,7 +1,7 @@
 from app.command_registry import COMMAND_REGISTRY
 
 
-def dispatch_command(command: str):
+def dispatch_command(command):
 
     if command not in COMMAND_REGISTRY:
         return {
@@ -11,22 +11,10 @@ def dispatch_command(command: str):
 
     action = COMMAND_REGISTRY[command]
 
-    if action is None:
-        return {
-            "status": "error",
-            "message": f"Command not implemented: {command}"
-        }
-
-    try:
+    if action:
         action()
 
-        return {
-            "status": "success",
-            "command": command
-        }
-
-    except Exception as e:
-        return {
-            "status": "error",
-            "message": str(e)
-        }
+    return {
+        "status": "success",
+        "command": command
+    }
