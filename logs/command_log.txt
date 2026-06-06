@@ -1,0 +1,333 @@
+2026-06-06 14:37:44,084 - INFO - LOGGER INITIALIZED
+2026-06-06 14:37:44,084 - INFO - TEST LOG ENTRY
+2026-06-06 14:38:02,595 - INFO - LOGGER INITIALIZED
+2026-06-06 14:38:02,597 - INFO - Received command: OPEN_BROWSER
+2026-06-06 14:38:02,675 - INFO - Successfully executed: OPEN_BROWSER
+2026-06-06 14:38:07,677 - INFO - Received command: OPEN_YOUTUBE
+2026-06-06 14:38:08,079 - INFO - Successfully executed: OPEN_YOUTUBE
+2026-06-06 14:38:13,080 - INFO - Received command: PLAY_PAUSE
+2026-06-06 14:38:13,182 - INFO - Successfully executed: PLAY_PAUSE
+2026-06-06 14:42:56,746 - INFO - LOGGER INITIALIZED
+2026-06-06 14:42:56,755 - INFO - MQTT Subscriber Started
+2026-06-06 14:42:56,779 - INFO - MQTT Connected with result code 0
+2026-06-06 14:44:09,728 - INFO - LOGGER INITIALIZED
+2026-06-06 14:44:09,734 - INFO - Published MQTT command: OPEN_BROWSER
+2026-06-06 14:44:09,796 - INFO - Received MQTT message on eeg/raw: OPEN_BROWSER
+2026-06-06 14:44:09,810 - INFO - Received command: OPEN_BROWSER
+2026-06-06 14:44:09,903 - INFO - Successfully executed: OPEN_BROWSER
+2026-06-06 14:44:12,735 - INFO - Published MQTT command: OPEN_YOUTUBE
+2026-06-06 14:44:12,755 - INFO - Received MQTT message on eeg/raw: OPEN_YOUTUBE
+2026-06-06 14:44:12,770 - INFO - Received command: OPEN_YOUTUBE
+2026-06-06 14:44:15,736 - INFO - Published MQTT command: PLAY_PAUSE
+2026-06-06 14:44:18,737 - INFO - Published MQTT command: PLAY_PAUSE
+2026-06-06 14:44:21,738 - INFO - Published MQTT command: VOLUME_UP
+2026-06-06 14:44:22,142 - INFO - Successfully executed: OPEN_YOUTUBE
+2026-06-06 14:44:22,173 - INFO - Received MQTT message on eeg/raw: PLAY_PAUSE
+2026-06-06 14:44:22,173 - INFO - Received command: PLAY_PAUSE
+2026-06-06 14:44:22,326 - INFO - Successfully executed: PLAY_PAUSE
+2026-06-06 14:44:22,403 - INFO - Received MQTT message on eeg/raw: PLAY_PAUSE
+2026-06-06 14:44:22,419 - INFO - Received command: PLAY_PAUSE
+2026-06-06 14:44:22,634 - INFO - Successfully executed: PLAY_PAUSE
+2026-06-06 14:44:22,665 - INFO - Received MQTT message on eeg/raw: VOLUME_UP
+2026-06-06 14:44:22,665 - INFO - Received command: VOLUME_UP
+2026-06-06 14:44:22,836 - INFO - Successfully executed: VOLUME_UP
+2026-06-06 14:44:24,739 - INFO - Published MQTT command: VOLUME_DOWN
+2026-06-06 14:44:24,745 - INFO - Received MQTT message on eeg/raw: VOLUME_DOWN
+2026-06-06 14:44:24,761 - INFO - Received command: VOLUME_DOWN
+2026-06-06 14:44:24,947 - INFO - Successfully executed: VOLUME_DOWN
+2026-06-06 14:44:27,740 - INFO - Published MQTT command: MUTE
+2026-06-06 14:44:27,768 - INFO - Received MQTT message on eeg/raw: MUTE
+2026-06-06 14:44:27,783 - INFO - Received command: MUTE
+2026-06-06 14:44:27,955 - INFO - Successfully executed: MUTE
+2026-06-06 14:44:30,741 - INFO - Published MQTT command: SCROLL_DOWN
+2026-06-06 14:44:30,763 - INFO - Received MQTT message on eeg/raw: SCROLL_DOWN
+2026-06-06 14:44:30,763 - INFO - Received command: SCROLL_DOWN
+2026-06-06 14:44:30,919 - INFO - Successfully executed: SCROLL_DOWN
+2026-06-06 14:44:33,742 - INFO - Published MQTT command: SCROLL_UP
+2026-06-06 14:44:33,762 - INFO - Received MQTT message on eeg/raw: SCROLL_UP
+2026-06-06 14:44:33,762 - INFO - Received command: SCROLL_UP
+2026-06-06 14:44:33,886 - INFO - Successfully executed: SCROLL_UP
+2026-06-06 14:44:36,744 - INFO - Published MQTT command: OPEN_NOTEPAD
+2026-06-06 14:44:36,758 - INFO - Received MQTT message on eeg/raw: OPEN_NOTEPAD
+2026-06-06 14:44:36,774 - INFO - Received command: OPEN_NOTEPAD
+2026-06-06 14:44:36,804 - INFO - Successfully executed: OPEN_NOTEPAD
+2026-06-06 14:44:39,744 - INFO - Published MQTT command: OPEN_CALCULATOR
+2026-06-06 14:44:39,752 - INFO - Received MQTT message on eeg/raw: OPEN_CALCULATOR
+2026-06-06 14:44:39,768 - INFO - Received command: OPEN_CALCULATOR
+2026-06-06 14:44:39,783 - INFO - Successfully executed: OPEN_CALCULATOR
+2026-06-06 14:44:42,755 - INFO - Published MQTT command: CLOSE_CALCULATOR
+2026-06-06 14:44:42,766 - INFO - Received MQTT message on eeg/raw: CLOSE_CALCULATOR
+2026-06-06 14:44:42,766 - INFO - Received command: CLOSE_CALCULATOR
+2026-06-06 14:44:42,967 - INFO - Successfully executed: CLOSE_CALCULATOR
+2026-06-06 14:44:45,757 - INFO - Published MQTT command: CLOSE_NOTEPAD
+2026-06-06 14:44:45,807 - INFO - Received MQTT message on eeg/raw: CLOSE_NOTEPAD
+2026-06-06 14:44:45,823 - INFO - Received command: CLOSE_NOTEPAD
+2026-06-06 14:44:46,039 - INFO - Successfully executed: CLOSE_NOTEPAD
+2026-06-06 14:44:48,757 - INFO - Published MQTT command: CLOSE_BROWSER
+2026-06-06 14:44:48,808 - INFO - Received MQTT message on eeg/raw: CLOSE_BROWSER
+2026-06-06 14:44:48,808 - INFO - Received command: CLOSE_BROWSER
+2026-06-06 14:44:48,903 - INFO - Successfully executed: CLOSE_BROWSER
+2026-06-06 14:48:50,792 - INFO - LOGGER INITIALIZED
+2026-06-06 14:48:50,800 - INFO - MQTT Subscriber Started
+2026-06-06 14:48:50,825 - INFO - MQTT Connected with result code 0
+2026-06-06 14:49:02,060 - INFO - LOGGER INITIALIZED
+2026-06-06 14:49:02,061 - INFO - Starting MQTT Subscriber
+2026-06-06 14:49:02,066 - INFO - MQTT Connected with result code: Success
+2026-06-06 14:49:02,066 - INFO - Subscribed to topic: eeg/raw
+2026-06-06 14:50:52,992 - INFO - MQTT Subscriber Stopped
+2026-06-06 14:56:48,791 - INFO - LOGGER INITIALIZED
+2026-06-06 14:56:48,792 - INFO - Starting MQTT Subscriber
+2026-06-06 14:56:48,797 - INFO - MQTT Connected with result code: Success
+2026-06-06 14:56:48,797 - INFO - Subscribed to topic: eeg/raw
+2026-06-06 14:57:03,806 - INFO - LOGGER INITIALIZED
+2026-06-06 14:57:03,812 - INFO - Published MQTT command: OPEN_BROWSER
+2026-06-06 14:57:03,812 - INFO - Received MQTT message on eeg/raw: OPEN_BROWSER
+2026-06-06 14:57:03,812 - INFO - Received command: OPEN_BROWSER
+2026-06-06 14:57:03,837 - INFO - Received MQTT message on eeg/raw: OPEN_BROWSER
+2026-06-06 14:57:03,852 - INFO - Received command: OPEN_BROWSER
+2026-06-06 14:57:03,891 - INFO - Successfully executed: OPEN_BROWSER
+2026-06-06 14:57:03,891 - INFO - Dispatch Result: {'status': 'success', 'command': 'OPEN_BROWSER'}
+2026-06-06 14:57:03,960 - INFO - Successfully executed: OPEN_BROWSER
+2026-06-06 14:57:06,813 - INFO - Published MQTT command: OPEN_YOUTUBE
+2026-06-06 14:57:06,813 - INFO - Received MQTT message on eeg/raw: OPEN_YOUTUBE
+2026-06-06 14:57:06,813 - INFO - Received command: OPEN_YOUTUBE
+2026-06-06 14:57:06,867 - INFO - Received MQTT message on eeg/raw: OPEN_YOUTUBE
+2026-06-06 14:57:06,867 - INFO - Received command: OPEN_YOUTUBE
+2026-06-06 14:57:07,048 - INFO - Successfully executed: OPEN_YOUTUBE
+2026-06-06 14:57:07,048 - INFO - Dispatch Result: {'status': 'success', 'command': 'OPEN_YOUTUBE'}
+2026-06-06 14:57:07,836 - INFO - Successfully executed: OPEN_YOUTUBE
+2026-06-06 14:57:09,814 - INFO - Published MQTT command: PLAY_PAUSE
+2026-06-06 14:57:09,814 - INFO - Received MQTT message on eeg/raw: PLAY_PAUSE
+2026-06-06 14:57:09,814 - INFO - Received command: PLAY_PAUSE
+2026-06-06 14:57:09,851 - INFO - Received MQTT message on eeg/raw: PLAY_PAUSE
+2026-06-06 14:57:09,851 - INFO - Received command: PLAY_PAUSE
+2026-06-06 14:57:09,915 - INFO - Successfully executed: PLAY_PAUSE
+2026-06-06 14:57:09,915 - INFO - Dispatch Result: {'status': 'success', 'command': 'PLAY_PAUSE'}
+2026-06-06 14:57:10,002 - INFO - Successfully executed: PLAY_PAUSE
+2026-06-06 14:57:12,816 - INFO - Published MQTT command: VOLUME_UP
+2026-06-06 14:57:12,816 - INFO - Received MQTT message on eeg/raw: VOLUME_UP
+2026-06-06 14:57:12,816 - INFO - Received command: VOLUME_UP
+2026-06-06 14:57:12,858 - INFO - Received MQTT message on eeg/raw: VOLUME_UP
+2026-06-06 14:57:12,858 - INFO - Received command: VOLUME_UP
+2026-06-06 14:57:12,917 - INFO - Successfully executed: VOLUME_UP
+2026-06-06 14:57:12,918 - INFO - Dispatch Result: {'status': 'success', 'command': 'VOLUME_UP'}
+2026-06-06 14:57:12,997 - INFO - Successfully executed: VOLUME_UP
+2026-06-06 14:57:15,818 - INFO - Received MQTT message on eeg/raw: VOLUME_DOWN
+2026-06-06 14:57:15,818 - INFO - Received command: VOLUME_DOWN
+2026-06-06 14:57:15,881 - INFO - Received MQTT message on eeg/raw: VOLUME_DOWN
+2026-06-06 14:57:15,896 - INFO - Received command: VOLUME_DOWN
+2026-06-06 14:57:15,919 - INFO - Successfully executed: VOLUME_DOWN
+2026-06-06 14:57:15,919 - INFO - Dispatch Result: {'status': 'success', 'command': 'VOLUME_DOWN'}
+2026-06-06 14:57:16,097 - INFO - Successfully executed: VOLUME_DOWN
+2026-06-06 14:57:18,821 - INFO - Published MQTT command: SCROLL_UP
+2026-06-06 14:57:18,822 - INFO - Received MQTT message on eeg/raw: SCROLL_UP
+2026-06-06 14:57:18,822 - INFO - Received command: SCROLL_UP
+2026-06-06 14:57:18,864 - INFO - Received MQTT message on eeg/raw: SCROLL_UP
+2026-06-06 14:57:18,864 - INFO - Received command: SCROLL_UP
+2026-06-06 14:57:18,923 - INFO - Successfully executed: SCROLL_UP
+2026-06-06 14:57:18,923 - INFO - Dispatch Result: {'status': 'success', 'command': 'SCROLL_UP'}
+2026-06-06 14:57:19,005 - INFO - Successfully executed: SCROLL_UP
+2026-06-06 14:57:21,822 - INFO - Published MQTT command: SCROLL_DOWN
+2026-06-06 14:57:21,823 - INFO - Received MQTT message on eeg/raw: SCROLL_DOWN
+2026-06-06 14:57:21,823 - INFO - Received command: SCROLL_DOWN
+2026-06-06 14:57:21,842 - INFO - Received MQTT message on eeg/raw: SCROLL_DOWN
+2026-06-06 14:57:21,843 - INFO - Received command: SCROLL_DOWN
+2026-06-06 14:57:21,923 - INFO - Successfully executed: SCROLL_DOWN
+2026-06-06 14:57:21,924 - INFO - Dispatch Result: {'status': 'success', 'command': 'SCROLL_DOWN'}
+2026-06-06 14:57:22,014 - INFO - Successfully executed: SCROLL_DOWN
+2026-06-06 14:57:24,824 - INFO - Published MQTT command: OPEN_NOTEPAD
+2026-06-06 14:57:24,824 - INFO - Received MQTT message on eeg/raw: OPEN_NOTEPAD
+2026-06-06 14:57:24,824 - INFO - Received command: OPEN_NOTEPAD
+2026-06-06 14:57:24,828 - INFO - Successfully executed: OPEN_NOTEPAD
+2026-06-06 14:57:24,828 - INFO - Dispatch Result: {'status': 'success', 'command': 'OPEN_NOTEPAD'}
+2026-06-06 14:57:24,852 - INFO - Received MQTT message on eeg/raw: OPEN_NOTEPAD
+2026-06-06 14:57:24,852 - INFO - Received command: OPEN_NOTEPAD
+2026-06-06 14:57:24,882 - INFO - Successfully executed: OPEN_NOTEPAD
+2026-06-06 14:57:27,824 - INFO - Published MQTT command: CLOSE_NOTEPAD
+2026-06-06 14:57:27,824 - INFO - Received MQTT message on eeg/raw: CLOSE_NOTEPAD
+2026-06-06 14:57:27,825 - INFO - Received command: CLOSE_NOTEPAD
+2026-06-06 14:57:27,864 - INFO - Received MQTT message on eeg/raw: CLOSE_NOTEPAD
+2026-06-06 14:57:27,864 - INFO - Received command: CLOSE_NOTEPAD
+2026-06-06 14:57:27,900 - INFO - Successfully executed: CLOSE_NOTEPAD
+2026-06-06 14:57:27,900 - INFO - Dispatch Result: {'status': 'success', 'command': 'CLOSE_NOTEPAD'}
+2026-06-06 14:57:28,082 - INFO - Successfully executed: CLOSE_NOTEPAD
+2026-06-06 14:57:30,825 - INFO - Published MQTT command: OPEN_CALCULATOR
+2026-06-06 14:57:30,825 - INFO - Received MQTT message on eeg/raw: OPEN_CALCULATOR
+2026-06-06 14:57:30,825 - INFO - Received command: OPEN_CALCULATOR
+2026-06-06 14:57:30,830 - INFO - Successfully executed: OPEN_CALCULATOR
+2026-06-06 14:57:30,830 - INFO - Dispatch Result: {'status': 'success', 'command': 'OPEN_CALCULATOR'}
+2026-06-06 14:57:30,872 - INFO - Received MQTT message on eeg/raw: OPEN_CALCULATOR
+2026-06-06 14:57:30,872 - INFO - Received command: OPEN_CALCULATOR
+2026-06-06 14:57:30,904 - INFO - Successfully executed: OPEN_CALCULATOR
+2026-06-06 14:57:33,826 - INFO - Published MQTT command: CLOSE_CALCULATOR
+2026-06-06 14:57:33,826 - INFO - Received MQTT message on eeg/raw: CLOSE_CALCULATOR
+2026-06-06 14:57:33,826 - INFO - Received command: CLOSE_CALCULATOR
+2026-06-06 14:57:33,890 - INFO - Received MQTT message on eeg/raw: CLOSE_CALCULATOR
+2026-06-06 14:57:33,891 - INFO - Successfully executed: CLOSE_CALCULATOR
+2026-06-06 14:57:33,891 - INFO - Dispatch Result: {'status': 'success', 'command': 'CLOSE_CALCULATOR'}
+2026-06-06 14:57:33,905 - INFO - Received command: CLOSE_CALCULATOR
+2026-06-06 14:57:34,181 - INFO - Successfully executed: CLOSE_CALCULATOR
+2026-06-06 14:57:36,827 - INFO - Published MQTT command: CLOSE_BROWSER
+2026-06-06 14:57:36,827 - INFO - Received MQTT message on eeg/raw: CLOSE_BROWSER
+2026-06-06 14:57:36,827 - INFO - Received command: CLOSE_BROWSER
+2026-06-06 14:57:36,849 - INFO - Received MQTT message on eeg/raw: CLOSE_BROWSER
+2026-06-06 14:57:36,864 - INFO - Received command: CLOSE_BROWSER
+2026-06-06 14:57:36,971 - INFO - Successfully executed: CLOSE_BROWSER
+2026-06-06 14:57:36,971 - INFO - Dispatch Result: {'status': 'success', 'command': 'CLOSE_BROWSER'}
+2026-06-06 14:57:37,003 - INFO - Successfully executed: CLOSE_BROWSER
+2026-06-06 15:14:02,189 - INFO - LOGGER INITIALIZED
+2026-06-06 15:14:02,189 - INFO - TEST LOG ENTRY
+2026-06-06 15:14:12,018 - INFO - LOGGER INITIALIZED
+2026-06-06 15:14:12,021 - INFO - Received command: OPEN_BROWSER
+2026-06-06 15:14:12,103 - INFO - Successfully executed: OPEN_BROWSER
+2026-06-06 15:14:17,106 - INFO - Received command: OPEN_YOUTUBE
+2026-06-06 15:14:17,422 - INFO - Successfully executed: OPEN_YOUTUBE
+2026-06-06 15:14:22,424 - INFO - Received command: PLAY_PAUSE
+2026-06-06 15:14:22,526 - INFO - Successfully executed: PLAY_PAUSE
+2026-06-06 15:14:27,527 - INFO - Received command: PLAY_PAUSE
+2026-06-06 15:14:27,628 - INFO - Successfully executed: PLAY_PAUSE
+2026-06-06 15:14:32,630 - INFO - Received command: VOLUME_UP
+2026-06-06 15:14:32,731 - INFO - Successfully executed: VOLUME_UP
+2026-06-06 15:14:37,733 - INFO - Received command: VOLUME_DOWN
+2026-06-06 15:14:37,833 - INFO - Successfully executed: VOLUME_DOWN
+2026-06-06 15:14:42,835 - INFO - Received command: MUTE
+2026-06-06 15:14:42,939 - INFO - Successfully executed: MUTE
+2026-06-06 15:14:47,941 - INFO - Received command: SCROLL_DOWN
+2026-06-06 15:14:48,042 - INFO - Successfully executed: SCROLL_DOWN
+2026-06-06 15:14:53,044 - INFO - Received command: SCROLL_UP
+2026-06-06 15:14:53,144 - INFO - Successfully executed: SCROLL_UP
+2026-06-06 15:14:58,405 - INFO - Received command: OPEN_NOTEPAD
+2026-06-06 15:14:58,410 - INFO - Successfully executed: OPEN_NOTEPAD
+2026-06-06 15:15:03,463 - INFO - Received command: OPEN_CALCULATOR
+2026-06-06 15:15:03,469 - INFO - Successfully executed: OPEN_CALCULATOR
+2026-06-06 15:15:08,470 - INFO - Received command: CLOSE_CALCULATOR
+2026-06-06 15:15:08,557 - INFO - Successfully executed: CLOSE_CALCULATOR
+2026-06-06 15:15:13,559 - INFO - Received command: CLOSE_NOTEPAD
+2026-06-06 15:15:13,619 - INFO - Successfully executed: CLOSE_NOTEPAD
+2026-06-06 15:15:18,620 - INFO - Received command: CLOSE_BROWSER
+2026-06-06 15:15:18,720 - INFO - Successfully executed: CLOSE_BROWSER
+2026-06-06 15:16:39,010 - INFO - LOGGER INITIALIZED
+2026-06-06 15:16:39,012 - INFO - Received command: OPEN_BROWSER
+2026-06-06 15:16:39,084 - INFO - Successfully executed: OPEN_BROWSER
+2026-06-06 15:16:44,086 - INFO - Received command: OPEN_YOUTUBE
+2026-06-06 15:16:44,326 - INFO - Successfully executed: OPEN_YOUTUBE
+2026-06-06 15:16:56,460 - INFO - LOGGER INITIALIZED
+2026-06-06 15:16:56,461 - INFO - Received command: OPEN_BROWSER
+2026-06-06 15:16:56,528 - INFO - Successfully executed: OPEN_BROWSER
+2026-06-06 15:16:59,529 - INFO - Received command: CLOSE_BROWSER
+2026-06-06 15:16:59,637 - INFO - Successfully executed: CLOSE_BROWSER
+2026-06-06 15:17:02,638 - INFO - Received command: PLAY_PAUSE
+2026-06-06 15:17:02,740 - INFO - Successfully executed: PLAY_PAUSE
+2026-06-06 15:17:05,742 - INFO - Received command: VOLUME_UP
+2026-06-06 15:17:05,843 - INFO - Successfully executed: VOLUME_UP
+2026-06-06 15:17:08,844 - INFO - Received command: VOLUME_DOWN
+2026-06-06 15:17:08,945 - INFO - Successfully executed: VOLUME_DOWN
+2026-06-06 15:17:11,946 - INFO - Received command: SCROLL_UP
+2026-06-06 15:17:12,047 - INFO - Successfully executed: SCROLL_UP
+2026-06-06 15:17:15,047 - INFO - Received command: SCROLL_DOWN
+2026-06-06 15:17:15,148 - INFO - Successfully executed: SCROLL_DOWN
+2026-06-06 15:17:18,149 - INFO - Received command: OPEN_NOTEPAD
+2026-06-06 15:17:18,153 - INFO - Successfully executed: OPEN_NOTEPAD
+2026-06-06 15:17:21,154 - INFO - Received command: CLOSE_NOTEPAD
+2026-06-06 15:17:21,232 - INFO - Successfully executed: CLOSE_NOTEPAD
+2026-06-06 15:17:24,233 - INFO - Received command: OPEN_CALCULATOR
+2026-06-06 15:17:24,241 - INFO - Successfully executed: OPEN_CALCULATOR
+2026-06-06 15:17:27,242 - INFO - Received command: CLOSE_CALCULATOR
+2026-06-06 15:17:27,303 - INFO - Successfully executed: CLOSE_CALCULATOR
+2026-06-06 15:17:30,332 - INFO - Received command: INVALID_COMMAND
+2026-06-06 15:17:30,332 - ERROR - Unknown command: INVALID_COMMAND
+2026-06-06 15:17:30,332 - ERROR - Dispatcher Error: Unknown command: INVALID_COMMAND
+2026-06-06 15:19:32,901 - INFO - LOGGER INITIALIZED
+2026-06-06 15:19:32,901 - INFO - Starting MQTT Subscriber
+2026-06-06 15:19:32,909 - INFO - MQTT Connected with result code: Success
+2026-06-06 15:19:32,909 - INFO - Subscribed to topic: eeg/raw
+2026-06-06 15:19:42,191 - INFO - LOGGER INITIALIZED
+2026-06-06 15:19:42,197 - INFO - Published MQTT command: OPEN_BROWSER
+2026-06-06 15:19:42,198 - INFO - Received MQTT message on eeg/raw: OPEN_BROWSER
+2026-06-06 15:19:42,198 - INFO - Received command: OPEN_BROWSER
+2026-06-06 15:19:42,276 - INFO - Successfully executed: OPEN_BROWSER
+2026-06-06 15:19:42,276 - INFO - Dispatch Result: {'status': 'success', 'command': 'OPEN_BROWSER'}
+2026-06-06 15:19:45,199 - INFO - Published MQTT command: OPEN_YOUTUBE
+2026-06-06 15:19:45,199 - INFO - Received MQTT message on eeg/raw: OPEN_YOUTUBE
+2026-06-06 15:19:45,199 - INFO - Received command: OPEN_YOUTUBE
+2026-06-06 15:19:45,433 - INFO - Successfully executed: OPEN_YOUTUBE
+2026-06-06 15:19:45,433 - INFO - Dispatch Result: {'status': 'success', 'command': 'OPEN_YOUTUBE'}
+2026-06-06 15:19:48,200 - INFO - Published MQTT command: PLAY_PAUSE
+2026-06-06 15:19:48,200 - INFO - Received MQTT message on eeg/raw: PLAY_PAUSE
+2026-06-06 15:19:48,200 - INFO - Received command: PLAY_PAUSE
+2026-06-06 15:19:48,301 - INFO - Successfully executed: PLAY_PAUSE
+2026-06-06 15:19:48,302 - INFO - Dispatch Result: {'status': 'success', 'command': 'PLAY_PAUSE'}
+2026-06-06 15:19:51,205 - INFO - Received MQTT message on eeg/raw: VOLUME_UP
+2026-06-06 15:19:51,206 - INFO - Received command: VOLUME_UP
+2026-06-06 15:19:51,205 - INFO - Published MQTT command: VOLUME_UP
+2026-06-06 15:19:51,306 - INFO - Successfully executed: VOLUME_UP
+2026-06-06 15:19:51,307 - INFO - Dispatch Result: {'status': 'success', 'command': 'VOLUME_UP'}
+2026-06-06 15:19:54,216 - INFO - Published MQTT command: VOLUME_DOWN
+2026-06-06 15:19:54,216 - INFO - Received MQTT message on eeg/raw: VOLUME_DOWN
+2026-06-06 15:19:54,216 - INFO - Received command: VOLUME_DOWN
+2026-06-06 15:19:54,317 - INFO - Successfully executed: VOLUME_DOWN
+2026-06-06 15:19:54,317 - INFO - Dispatch Result: {'status': 'success', 'command': 'VOLUME_DOWN'}
+2026-06-06 15:19:57,217 - INFO - Published MQTT command: SCROLL_UP
+2026-06-06 15:19:57,217 - INFO - Received MQTT message on eeg/raw: SCROLL_UP
+2026-06-06 15:19:57,217 - INFO - Received command: SCROLL_UP
+2026-06-06 15:19:57,318 - INFO - Successfully executed: SCROLL_UP
+2026-06-06 15:19:57,318 - INFO - Dispatch Result: {'status': 'success', 'command': 'SCROLL_UP'}
+2026-06-06 15:20:00,218 - INFO - Published MQTT command: SCROLL_DOWN
+2026-06-06 15:20:00,218 - INFO - Received MQTT message on eeg/raw: SCROLL_DOWN
+2026-06-06 15:20:00,218 - INFO - Received command: SCROLL_DOWN
+2026-06-06 15:20:00,319 - INFO - Successfully executed: SCROLL_DOWN
+2026-06-06 15:20:00,319 - INFO - Dispatch Result: {'status': 'success', 'command': 'SCROLL_DOWN'}
+2026-06-06 15:20:03,219 - INFO - Published MQTT command: OPEN_NOTEPAD
+2026-06-06 15:20:03,219 - INFO - Received MQTT message on eeg/raw: OPEN_NOTEPAD
+2026-06-06 15:20:03,219 - INFO - Received command: OPEN_NOTEPAD
+2026-06-06 15:20:03,224 - INFO - Successfully executed: OPEN_NOTEPAD
+2026-06-06 15:20:03,224 - INFO - Dispatch Result: {'status': 'success', 'command': 'OPEN_NOTEPAD'}
+2026-06-06 15:20:06,221 - INFO - Published MQTT command: CLOSE_NOTEPAD
+2026-06-06 15:20:06,221 - INFO - Received MQTT message on eeg/raw: CLOSE_NOTEPAD
+2026-06-06 15:20:06,221 - INFO - Received command: CLOSE_NOTEPAD
+2026-06-06 15:20:06,316 - INFO - Successfully executed: CLOSE_NOTEPAD
+2026-06-06 15:20:06,316 - INFO - Dispatch Result: {'status': 'success', 'command': 'CLOSE_NOTEPAD'}
+2026-06-06 15:20:09,222 - INFO - Published MQTT command: OPEN_CALCULATOR
+2026-06-06 15:20:09,222 - INFO - Received MQTT message on eeg/raw: OPEN_CALCULATOR
+2026-06-06 15:20:09,222 - INFO - Received command: OPEN_CALCULATOR
+2026-06-06 15:20:09,227 - INFO - Successfully executed: OPEN_CALCULATOR
+2026-06-06 15:20:09,227 - INFO - Dispatch Result: {'status': 'success', 'command': 'OPEN_CALCULATOR'}
+2026-06-06 15:20:12,223 - INFO - Published MQTT command: CLOSE_CALCULATOR
+2026-06-06 15:20:12,223 - INFO - Received MQTT message on eeg/raw: CLOSE_CALCULATOR
+2026-06-06 15:20:12,223 - INFO - Received command: CLOSE_CALCULATOR
+2026-06-06 15:20:12,287 - INFO - Successfully executed: CLOSE_CALCULATOR
+2026-06-06 15:20:12,287 - INFO - Dispatch Result: {'status': 'success', 'command': 'CLOSE_CALCULATOR'}
+2026-06-06 15:20:15,223 - INFO - Published MQTT command: CLOSE_BROWSER
+2026-06-06 15:20:15,223 - INFO - Received MQTT message on eeg/raw: CLOSE_BROWSER
+2026-06-06 15:20:15,224 - INFO - Received command: CLOSE_BROWSER
+2026-06-06 15:20:15,321 - INFO - Successfully executed: CLOSE_BROWSER
+2026-06-06 15:20:15,321 - INFO - Dispatch Result: {'status': 'success', 'command': 'CLOSE_BROWSER'}
+2026-06-06 15:24:57,658 - INFO - LOGGER INITIALIZED
+2026-06-06 15:24:57,660 - INFO - Received command: OPEN_BROWSER
+2026-06-06 15:24:57,730 - INFO - Successfully executed: OPEN_BROWSER
+2026-06-06 15:24:59,731 - INFO - Received command: OPEN_YOUTUBE
+2026-06-06 15:25:00,042 - INFO - Successfully executed: OPEN_YOUTUBE
+2026-06-06 15:25:02,043 - INFO - Received command: PLAY_PAUSE
+2026-06-06 15:25:02,144 - INFO - Successfully executed: PLAY_PAUSE
+2026-06-06 15:25:04,145 - INFO - Received command: PLAY_PAUSE
+2026-06-06 15:25:04,268 - INFO - Successfully executed: PLAY_PAUSE
+2026-06-06 15:25:06,272 - INFO - Received command: VOLUME_UP
+2026-06-06 15:25:06,373 - INFO - Successfully executed: VOLUME_UP
+2026-06-06 15:25:08,388 - INFO - Received command: VOLUME_DOWN
+2026-06-06 15:25:08,489 - INFO - Successfully executed: VOLUME_DOWN
+2026-06-06 15:25:10,492 - INFO - Received command: MUTE
+2026-06-06 15:25:10,594 - INFO - Successfully executed: MUTE
+2026-06-06 15:25:12,595 - INFO - Received command: SCROLL_DOWN
+2026-06-06 15:25:12,696 - INFO - Successfully executed: SCROLL_DOWN
+2026-06-06 15:25:14,698 - INFO - Received command: SCROLL_UP
+2026-06-06 15:25:14,799 - INFO - Successfully executed: SCROLL_UP
+2026-06-06 15:25:16,800 - INFO - Received command: OPEN_NOTEPAD
+2026-06-06 15:25:16,804 - INFO - Successfully executed: OPEN_NOTEPAD
+2026-06-06 15:25:18,806 - INFO - Received command: OPEN_CALCULATOR
+2026-06-06 15:25:18,811 - INFO - Successfully executed: OPEN_CALCULATOR
+2026-06-06 15:25:20,813 - INFO - Received command: CLOSE_CALCULATOR
+2026-06-06 15:25:20,896 - INFO - Successfully executed: CLOSE_CALCULATOR
+2026-06-06 15:25:22,897 - INFO - Received command: CLOSE_NOTEPAD
+2026-06-06 15:25:23,016 - INFO - Successfully executed: CLOSE_NOTEPAD
+2026-06-06 15:25:25,019 - INFO - Received command: CLOSE_BROWSER
+2026-06-06 15:25:25,112 - INFO - Successfully executed: CLOSE_BROWSER

@@ -1,15 +1,49 @@
+import time
 import paho.mqtt.client as mqtt
 
-client = mqtt.Client(mqtt.CallbackAPIVersion.VERSION2)
+from app.logger import logger
 
-client.connect("localhost", 1883, 60)
 
-result = client.publish(
-    "eeg/raw",
-    "Hello from BCI Backend"
+client = mqtt.Client(
+    mqtt.CallbackAPIVersion.VERSION2
 )
 
-print("Message Published")
-print(result)
+client.connect(
+    "localhost",
+    1883,
+    60
+)
 
-client.disconnect() 
+commands = [
+    "OPEN_BROWSER",
+    "OPEN_YOUTUBE",
+    "PLAY_PAUSE",
+    "VOLUME_UP",
+    "VOLUME_DOWN",
+    "SCROLL_UP",
+    "SCROLL_DOWN",
+    "OPEN_NOTEPAD",
+    "CLOSE_NOTEPAD",
+    "OPEN_CALCULATOR",
+    "CLOSE_CALCULATOR",
+    "CLOSE_BROWSER"
+]
+
+for command in commands:
+
+    client.publish(
+        "eeg/raw",
+        command
+    )
+
+    logger.info(
+        f"Published MQTT command: {command}"
+    )
+
+    print(
+        f"Published: {command}"
+    )
+
+    time.sleep(2)
+
+client.disconnect()

@@ -37,6 +37,6 @@ def run_reference_signals():
 
         print("-" * 60)
 
-        time.sleep(5)
+        time.sleep(2)
 
     print("\n===== Demo Completed =====")
