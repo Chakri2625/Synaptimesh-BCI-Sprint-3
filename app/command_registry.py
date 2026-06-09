@@ -1,51 +1,24 @@
-from app.automations.browser import (
-    open_browser,
-    close_browser,
-    open_youtube
-)
-
-from app.automations.applications import (
-    open_notepad,
-    close_notepad,
-    open_calculator,
-    close_calculator
-)
-
+from app.notepad_controller import run_notepad_workflow
+from app.calculator_controller import run_calculator_workflow
+from app.browser_controller import run_browser_workflow
+from app.media_controller import run_media_workflow
+from app.file_explorer_controller import run_explorer_workflow
 from app.automations.mouse import (
-    scroll_up,
-    scroll_down,
     mouse_left,
     mouse_right,
     mouse_up,
-    mouse_down
+    mouse_down,
+    scroll_up,
+    scroll_down
 )
-
-from app.automations.media import (
-    play_pause,
-    volume_up,
-    volume_down,
-    mute
-)
-
 
 COMMAND_REGISTRY = {
-
-    # Browser / Web
-    "OPEN_BROWSER": open_browser,
-    "CLOSE_BROWSER": close_browser,
-    "OPEN_YOUTUBE": open_youtube,
-
     # Applications
-    "OPEN_NOTEPAD": open_notepad,
-    "CLOSE_NOTEPAD": close_notepad,
-    "OPEN_CALCULATOR": open_calculator,
-    "CLOSE_CALCULATOR": close_calculator,
-
-    # Media
-    "PLAY_PAUSE": play_pause,
-    "VOLUME_UP": volume_up,
-    "VOLUME_DOWN": volume_down,
-    "MUTE": mute,
+    "OPEN_NOTEPAD": run_notepad_workflow,
+    "OPEN_CALCULATOR": run_calculator_workflow,
+    "OPEN_BROWSER": run_browser_workflow,
+    "OPEN_MEDIA": run_media_workflow,
+    "OPEN_EXPLORER": run_explorer_workflow,
 
     # Mouse
     "MOUSE_LEFT": mouse_left,
@@ -57,7 +30,7 @@ COMMAND_REGISTRY = {
     "SCROLL_UP": scroll_up,
     "SCROLL_DOWN": scroll_down,
 
-    # Extra
+    # Extra keys
     "ENTER": None,
     "ESCAPE": None,
     "SPACE": None
