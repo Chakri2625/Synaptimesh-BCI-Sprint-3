@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BCI Automation Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff; /* White background */
+            color: #000000; /* Default text black */
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .tiles {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .tile {
+            background-color: #000000; /* Black tile */
+            color: #ffffff; /* White text */
+            padding: 20px;
+            border-radius: 10px;
+            width: 180px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 40px;
+        }
+        table, th, td {
+            border: 1px solid #000000;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #000000;
+            color: #ffffff;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tr:nth-child(odd) {
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <h1>BCI Automation Dashboard</h1>
+
+    <div class="tiles">
+        <div class="tile">
+            <h2>Total Commands</h2>
+            <p>{{ total }}</p>
+        </div>
+        <div class="tile">
+            <h2>Accepted</h2>
+            <p>{{ accepted }}</p>
+        </div>
+        <div class="tile">
+            <h2>Rejected</h2>
+            <p>{{ rejected }}</p>
+        </div>
+        <div class="tile">
+            <h2>Blocked</h2>
+            <p>{{ blocked }}</p>
+        </div>
+        <div class="tile">
+            <h2>Success Rate</h2>
+            <p>{{ success_rate }}%</p>
+        </div>
+    </div>
+
+    <h2>Command History</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Timestamp</th>
+                <th>Command</th>
+                <th>Confidence</th>
+                <th>Threshold</th>
+                <th>Status</th>
+                <th>Reason</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for h in history %}
+            <tr>
+                <td>{{ h.timestamp }}</td>
+                <td>{{ h.command }}</td>
+                <td>{{ h.confidence }}</td>
+                <td>{{ h.threshold }}</td>
+                <td>{{ h.status }}</td>
+                <td>{{ h.reason }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>     
