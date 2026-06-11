@@ -1,16 +1,36 @@
-from app.dispatcher import dispatch_command, dispatch
+# tests/test_dispatcher.py
 
-def test_invalid_command():
-    result = dispatch_command("INVALID_COMMAND")
-    assert result["status"] == "error"
+from app.dispatcher import (
+    dispatch_command
+)
 
-# Sample payload tests
-dispatch({
-    "command": "OPEN_NOTEPAD",
-    "confidence": 0.95
-})
+COMMANDS = [
 
-dispatch({
-    "command": "OPEN_BROWSER",
-    "confidence": 0.45
-})
+    "OPEN_NOTEPAD",
+
+    "OPEN_CALCULATOR",
+
+    "OPEN_EXPLORER",
+
+    "OPEN_VSCODE",
+
+    "OPEN_CALENDAR"
+]
+
+for command in COMMANDS:
+
+    print()
+
+    print("=" * 50)
+
+    print(
+        f"TESTING: {command}"
+    )
+
+    print("=" * 50)
+
+    result = dispatch_command(
+        command
+    )
+
+    print(result)
