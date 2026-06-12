@@ -1,4 +1,8 @@
-from flask import Flask, render_template
+# app/dashboard_server.py
+
+from flask import Flask
+from flask import render_template
+
 import json
 import os
 
@@ -12,52 +16,115 @@ def dashboard():
 
     history = []
 
-    if os.path.exists(HISTORY_FILE):
+    if os.path.exists(
+        HISTORY_FILE
+    ):
 
-        with open(HISTORY_FILE, "r") as f:
+        with open(
+            HISTORY_FILE,
+            "r"
+        ) as f:
 
             history = json.load(f)
 
-    total = len(history)
+    total = len(
+        history
+    )
 
     accepted = len(
+
         [
-            h for h in history
+            h
+
+            for h in history
+
             if h["status"] == "ACCEPTED"
         ]
     )
 
     rejected = len(
+
         [
-            h for h in history
+            h
+
+            for h in history
+
             if h["status"] == "REJECTED"
         ]
     )
 
     blocked = len(
+
         [
-            h for h in history
+            h
+
+            for h in history
+
             if h["status"] == "BLOCKED"
         ]
     )
 
-    success_rate = 0
+    failed = len(
 
-    if total:
+        [
+            h
 
-        success_rate = round(
-            accepted / total * 100,
-            2
+            for h in history
+
+            if h["status"] == "FAILED"
+        ]
+    )
+
+    total_response_time = sum(
+
+        h.get(
+            "response_time",
+            0
         )
 
+        for h in history
+    )
+
+    average_response_time = (
+
+        total_response_time
+        / total
+
+    ) if total else 0
+
+    success_rate = (
+
+        accepted
+        / total
+        * 100
+
+    ) if total else 0
+
     return render_template(
+
         "dashboard.html",
+
         history=history,
+
         total=total,
+
         accepted=accepted,
+
         rejected=rejected,
+
         blocked=blocked,
-        success_rate=success_rate
+
+        failed=failed,
+
+        average_response_time=round(
+            average_response_time,
+            2
+        ),
+
+        success_rate=round(
+            success_rate,
+            2
+        )
     )
 
 

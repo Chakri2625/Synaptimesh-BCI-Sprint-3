@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Desktop Automation Chatbot</title>
+
+    <style>
+
+        body {
+
+            background: white;
+            font-family: Arial;
+            padding: 30px;
+        }
+
+        h1 {
+
+            text-align: center;
+        }
+
+        .aml {
+
+            background: #f2f2f2;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+
+        .container {
+
+            display: grid;
+
+            grid-template-columns:
+            repeat(3, 1fr);
+
+            gap: 20px;
+        }
+
+        .card {
+
+            background: black;
+
+            color: white;
+
+            padding: 20px;
+
+            border-radius: 10px;
+        }
+
+        .card h2 {
+
+            margin-top: 0;
+        }
+
+        button {
+
+            width: 100%;
+
+            padding: 10px;
+
+            margin-top: 15px;
+
+            cursor: pointer;
+
+            border: none;
+
+            font-weight: bold;
+        }
+
+        .integration {
+
+            margin-top: 30px;
+
+            background: black;
+
+            color: white;
+
+            padding: 20px;
+
+            border-radius: 10px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <h1>
+        DESKTOP AUTOMATION CHATBOT & CONTROL PANEL
+    </h1>
+
+    <div class="aml">
+
+        <h2>
+            AML Command Mapping
+        </h2>
+
+        <p>PUSH → OPEN</p>
+
+        <p>PULL → CLOSE</p>
+
+        <p>LEFT → PREVIOUS APPLICATION</p>
+
+        <p>RIGHT → NEXT APPLICATION</p>
+
+        <p>UP → START AUTOMATION</p>
+
+        <p>DOWN → STOP AUTOMATION</p>
+
+    </div>
+
+    <div class="container">
+
+        <div class="card">
+
+            <h2>Notepad</h2>
+
+            <p>
+                Create and save notes automatically.
+            </p>
+
+            <button onclick="window.location.href='/start_notepad'">
+
+                START AUTOMATION
+
+            </button>
+
+        </div>
+
+        <div class="card">
+
+            <h2>Calculator</h2>
+
+            <p>
+                Perform calculator operations.
+            </p>
+
+            <button onclick="window.location.href='/start_calculator'">
+
+                START AUTOMATION
+
+            </button>
+
+        </div>
+
+        <div class="card">
+
+            <h2>File Explorer</h2>
+
+            <p>
+                Folder creation and navigation.
+            </p>
+
+            <button onclick="window.location.href='/start_explorer'">
+
+                START AUTOMATION
+
+            </button>
+
+        </div>
+
+        <div class="card">
+
+            <h2>VS Code</h2>
+
+            <p>
+                Create and execute Python files.
+            </p>
+
+            <button onclick="window.location.href='/start_vscode'">
+
+                START AUTOMATION
+
+            </button>
+
+        </div>
+
+        <div class="card">
+
+            <h2>Google Calendar</h2>
+
+            <p>
+                Event creation automation.
+            </p>
+
+            <button onclick="window.location.href='/start_calendar'">
+
+                START AUTOMATION
+
+            </button>
+
+        </div>
+
+        <div class="card">
+
+            <h2>Outlook</h2>
+
+            <p>
+                Email draft automation.
+            </p>
+
+            <button onclick="window.location.href='/start_outlook'">
+
+                START AUTOMATION
+
+            </button>
+
+        </div>
+
+        <div class="card">
+
+            <h2>AI Assistant</h2>
+
+            <p>
+                Desktop Automation Support Assistant.
+            </p>
+
+            <button onclick="window.location.href='/open_ai'">
+
+                OPEN ASSISTANT
+
+            </button>
+
+        </div>
+
+    </div>
+
+    <div class="integration">
+
+        <h2>
+            FINAL SYSTEM INTEGRATION
+        </h2>
+
+        <p>
+            Execute all desktop automations sequentially.
+        </p>
+
+        <button onclick="window.location.href='/start_final'">
+
+            START FINAL AUTOMATION
+
+        </button>
+
+    </div>
+
+</body>
+
+</html>
